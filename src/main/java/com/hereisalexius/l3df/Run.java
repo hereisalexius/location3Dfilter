@@ -92,12 +92,12 @@ public class Run extends Application{
         menuBar.getMenus().addAll(menu);
 
         TabPane tp = new TabPane(
-                new Tab("Карта висот",FXMLLoader.load(getClass().getResource("/fxml/hm.fxml"))),
-                new Tab("Ліс",FXMLLoader.load(getClass().getResource("/fxml/wd.fxml"))),
+                new Tab("Heightmap",FXMLLoader.load(getClass().getResource("/fxml/hm.fxml"))),
+                new Tab("Woods",FXMLLoader.load(getClass().getResource("/fxml/wd.fxml"))),
                 //new Tab("Поселення",FXMLLoader.load(getClass().getResource("/fxml/ct.fxml"))),
-                new Tab("Річки",FXMLLoader.load(getClass().getResource("/fxml/rv.fxml"))),
-                new Tab("Колія",FXMLLoader.load(getClass().getResource("/fxml/rw.fxml"))),
-                new Tab("Текст",FXMLLoader.load(getClass().getResource("/fxml/tx.fxml")))
+                new Tab("Rivers",FXMLLoader.load(getClass().getResource("/fxml/rv.fxml"))),
+                new Tab("Road",FXMLLoader.load(getClass().getResource("/fxml/rw.fxml"))),
+                new Tab("Text",FXMLLoader.load(getClass().getResource("/fxml/tx.fxml")))
         );
 
         tp.setTabClosingPolicy(TabPane.TabClosingPolicy.UNAVAILABLE);

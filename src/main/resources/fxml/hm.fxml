@@ -19,9 +19,9 @@
                </children>
             </VBox>
             <StackPane prefHeight="53.0" prefWidth="9.0" />
-            <Button mnemonicParsing="false" onAction="#clear" prefWidth="100.0" text="Очистити" />
-            <Button mnemonicParsing="false" onAction="#importImage" prefWidth="100.0" text="Імпорт" />
-            <Button mnemonicParsing="false" onAction="#exportImage" prefWidth="100.0" text="Експорт" />
+            <Button mnemonicParsing="false" onAction="#clear" prefWidth="100.0" text="Clear" />
+            <Button mnemonicParsing="false" onAction="#importImage" prefWidth="100.0" text="Import" />
+            <Button mnemonicParsing="false" onAction="#exportImage" prefWidth="100.0" text="Export" />
          </items>
          <BorderPane.margin>
             <Insets />

@@ -13,12 +13,12 @@
             <StackPane prefHeight="53.0" prefWidth="11.0" />
             <VBox alignment="TOP_CENTER">
                <children>
-                  <Label text="Розмір пензля" />
+                  <Label text="Brush size" />
                   <Slider fx:id="brushSizer" max="50.0" showTickLabels="true" showTickMarks="true" />
                </children>
             </VBox>
             <StackPane prefHeight="53.0" prefWidth="9.0" />
-            <Button mnemonicParsing="false" onAction="#clear" prefWidth="100.0" text="Очистити" />
+            <Button mnemonicParsing="false" onAction="#clear" prefWidth="100.0" text="Clear" />
          </items>
          <BorderPane.margin>
             <Insets />

@@ -13,6 +13,6 @@ public class CanvasLinksContainer {
     public static Canvas cityCanvas;
     public static Canvas railwayCanvas;
     public static Canvas riverCanvas;
-    public static Canvas  contentCanvas;
+    public static Canvas contentCanvas;
 
 }
